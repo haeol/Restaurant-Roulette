@@ -1,0 +1,76 @@
+body {
+	background: #222333;
+	color: #ffffff;
+	padding-top: 70px;
+}
+.btn-default {
+	background-color: #4fd2c2;
+	border-color: #4fd2c2;
+	color: #ffffff;
+
+}
+.btn-go{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 50%;
+	max-width: 200px;	
+}
+.buttons{
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+}
+.buttons-left {
+	width: 50%;
+	float:left;
+	text-align: center;
+}
+.buttons-right {
+	width: 50%;
+	float: right;
+	text-align: center;
+	background-color: black;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #222333;
+}
+input:focus {
+	outline:none;
+	box-shadow: none;
+}
+.input-loc {
+	margin-bottom: 10px;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+}
+.navbar-inverse {
+	background-color: #4fd2c2;
+	border-color: #4fd2c2;
+} 
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #ffffff;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form, .navbar-inverse .navbar-toggle {
+	border-color: #4fd2c2;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #39B9A9;
+}
+.prompt {
+	margin-top: -20px;
+	margin-bottom: 15px;
+}
+.wrapper-go {
+	text-align: center;
+
+}
